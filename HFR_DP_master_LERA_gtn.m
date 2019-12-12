@@ -33,7 +33,7 @@ clear
 %% add paths
 %%% load any paths for HFR_Progs, m_map, etc.  if needed...
 %cd /home/hfrp/ ; HFR_DP_addpaths_hamlin
-cd D:\data\git\lera_wera_dp
+cd D:\data\git\lera_DPd
 add_paths
 
 
@@ -75,18 +75,18 @@ ARRAY.max_lat = 35;
 %%% set directory choices
 
 %%% What is the working directory where the HFR_DP files are located
-working_dir='D:\data\git\lera_wera_dp\lera_DPd';
+working_dir='D:\data\git\lera_DPd';
 
 %%% Where are the scripts, this is hard coded to be within the working directory
 scripts_dir=[working_dir '/scripts/'];
 
 %%% Where are the data  (see HFR_DP_SETUP_README.m for instructions
 %base_dir='/Users/anthony/Matlab/working/lera/lera_DP_testdata';
-base_dir='D:\data\git\lera_wera_dp\lera_DP_testdata_wera';
+base_dir='D:\data\git\lera_DP_testdata_wera';
 %base_dir='/Volumes/data/RadialSites';
 
 %%% Where do the DP logs go, if they are enabled...
-log_dir=['D:\data\git\lera_wera_dp\LOGS'];
+log_dir=['D:\data\git\lera_DP_testdata_wera\LOGS'];
 %log_dir=['/Volumes/data/LOGS'];
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
