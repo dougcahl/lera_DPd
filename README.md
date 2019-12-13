@@ -1,3 +1,9 @@
+# forked for WERA systems
+Edit the add_paths.m to point towards the correct directories
+Edit HFR_DP_master_LERA_gtn.m to add the full paths 
+
+
+
 # lera_DPd
 
 This package is the Public version of the HFR_DP software for processing LERA-type HF radar data sets.
