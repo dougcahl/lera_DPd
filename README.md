@@ -1,6 +1,11 @@
 # forked for WERA systems 
 Edit the add_paths.m to point towards the correct directories  
 Edit HFR_DP_master_LERA_gtn.m to add the full paths   
+
+The example data in lera_DP_testdata_wera includes necessary scripts for antenna pattern calculations. 
+
+The processing scripts for raw WERA data (from .RAW and .SORT) are available in the wera_raw_to_ts repo. This script makes a compatible .mat file for the forked lera_DPd repo. This fork will automatically process either of these formats. 
+
 Dec. 2019 -- Douglas Cahl, dcahl@geol.sc.edu
 
 
