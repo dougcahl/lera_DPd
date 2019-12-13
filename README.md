@@ -1,6 +1,7 @@
-# forked for WERA systems (Douglas Cahl, dcahl@geol.sc.edu)
+# forked for WERA systems 
 Edit the add_paths.m to point towards the correct directories
 Edit HFR_DP_master_LERA_gtn.m to add the full paths 
+Dec. 2019 -- Douglas Cahl, dcahl@geol.sc.edu
 
 
 
