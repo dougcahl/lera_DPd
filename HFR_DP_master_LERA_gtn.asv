@@ -33,6 +33,7 @@ clear
 %% add paths
 %%% load any paths for HFR_Progs, m_map, etc.  if needed...
 %cd /home/hfrp/ ; HFR_DP_addpaths_hamlin
+% cd D:\data\git\lera_DPd
 add_paths;
 
 
@@ -74,18 +75,18 @@ ARRAY.max_lat = 35;
 %%% set directory choices
 
 %%% What is the working directory where the HFR_DP files are located
-working_dir='D:\data\gittest2\lera_DPd';
+working_dir='D:\data\git\lera_DPd';
 
 %%% Where are the scripts, this is hard coded to be within the working directory
 scripts_dir=[working_dir '/scripts/'];
 
 %%% Where are the data  (see HFR_DP_SETUP_README.m for instructions
 %base_dir='/Users/anthony/Matlab/working/lera/lera_DP_testdata';
-base_dir='D:\data\gittest2\lera_DP_testdata_wera';
+base_dir='D:\data\git\lera_DP_testdata_wera';
 %base_dir='/Volumes/data/RadialSites';
 
 %%% Where do the DP logs go, if they are enabled...
-log_dir=['D:\data\gittest2\lera_DP_testdata_wera\LOGS'];
+log_dir=['D:\data\git\lera_DP_testdata_wera\LOGS'];
 %log_dir=['/Volumes/data/LOGS'];
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -192,10 +193,10 @@ CONST.PC.SpecOverlapPct=78;     %for WOSA, style increased ensembles into CSE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% set plotting and printing switches
 %plotting:
-CONST.goplot=[1 0];   %where:
+CONST.goplot=[1 1];   %where:
 %  switch 1 controls the final plots of radial results, etc.  (1=plot, 0=do not plot)
 %  switch 2 controls the intermediary plots within functions  (1=plot, 0=do not plot)
-CONST.goprint=[0 0];
+CONST.goprint=[1 1];
 %  switch 1 prints the final plots of radial results, etc.  (1=print, 0=do not print)
 %  switch 2 prints the intermediary plots within functions  (1=print, 0=do not print)
 
@@ -207,7 +208,7 @@ CONST.goprint=[0 0];
 CONST.files_to_process_method=1;
 %%% if using this method, need to set the time bounds
 %%% set the time frame to examine, only used by method 1
-start_time=datenum(2019,11,1,0,0,0);  % example data -- 2 files from .RAW and one from .SORT
+start_time=datenum(2019,11,1,0,0,0);  % example data -- 3 files from .RAW and one from .SORT
 end_time=datenum(2019,11,20,17,0,0); 
 CONST.files_to_process_dates=[start_time end_time];
 

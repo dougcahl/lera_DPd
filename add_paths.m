@@ -1,13 +1,13 @@
 %%
-hfrprogpath = 'D:\data\git\hfrprogs';
-addpath(genpath(hfrprogpath))
+hfrprogs_path = '..\hfrprogs';
+addpath(genpath(hfrprogs_path))
 
-mmappath = 'D:\data\git\m_map';
-addpath(mmappath);
+m_map_path = '..\m_map';
+addpath(m_map_path);
 
-lerapath = 'D:\data\git\lera_DPd';
-addpath(genpath(lerapath));
+matWERA_path = '..\matWERA';
+addpath(matWERA_path);
 
-read_wera_path = 'D:\data\git\matWERA';
-addpath(lerapath);
+lera_DPd_path = '..\lera_DPd';
+addpath(genpath(lera_DPd_path));
 
