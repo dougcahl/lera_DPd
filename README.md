@@ -1,5 +1,6 @@
-# forked for WERA systems (requires additional library matWERA)
-to install required libraries  
+# forked for WERA systems
+requires additional library matWERA
+to install all required libraries  
 git clone https://github.com/gvoulgaris0/matWERA  
 git clone https://github.com/g2e/m_map  
 git clone https://github.com/rowg/hfrprogs  
