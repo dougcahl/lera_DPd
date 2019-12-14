@@ -38,6 +38,8 @@ function [RADIAL,HEAD]=HFR_DP_lera_RadialAverage_v2(RM,patt,HEAD,CONST);
 % Woods Hole Oceanographic Institution
 % akirincich@whoi.edu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% for use with WERA .RAW and .SORT files
+% Douglas Cahl dcahl@geol.sc.edu
 %%
 
 %%%%%% background info on RM formats and what all the fields mean:  %%%%%%
@@ -74,6 +76,7 @@ function [RADIAL,HEAD]=HFR_DP_lera_RadialAverage_v2(RM,patt,HEAD,CONST);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Unpack processing thresholds

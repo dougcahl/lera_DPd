@@ -83,6 +83,7 @@
 %
 
 % for use with WERA .RAW and .SORT files
+% Douglas Cahl dcahl@geol.sc.edu
 %%
 
 %%%% mark that we are using this file to process...

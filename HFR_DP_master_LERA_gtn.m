@@ -28,7 +28,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-%%
+%% this master for WERA systems
+% 
 clear
 %% add paths
 %%% load any paths for HFR_Progs, m_map, etc.  if needed...

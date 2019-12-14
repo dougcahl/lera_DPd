@@ -91,6 +91,8 @@ function patt=load_lera_pattern_v3(CONST,RC,A,phi);
 % WHOI PO
 % akirincich@whoi.edu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% for use with WERA .RAW and .SORT files
+% Douglas Cahl dcahl@geol.sc.edu
 
 %if strcmp(CONST.which_patt,'Ideal')==1n   %always start with the ideal pattern
 

@@ -75,7 +75,8 @@ function [SpecHead,data,mtime]=lera_time2spectra_v(incoming_ts_file_dir,incoming
 %
 %
 %
-% Douglas Cahl 11/19/2019 -- updated for wera files
+% for use with WERA .RAW and .SORT files
+% Douglas Cahl dcahl@geol.sc.edu
 %
 
 %%

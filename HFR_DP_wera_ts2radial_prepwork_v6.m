@@ -25,6 +25,8 @@
 % WHOI PO
 % akirincich@whoi.edu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% for use with WERA .RAW and .SORT files
+% Douglas Cahl dcahl@geol.sc.edu
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

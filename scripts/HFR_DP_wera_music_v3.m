@@ -76,6 +76,8 @@ function [R, HEAD]=HFR_DP_lera_music(data,FOregi,HEAD,SpecHead,patt,CONST)
 %    WHOI-PO
 %    akirincich@whoi.edu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% for use with WERA .RAW and .SORT files
+% Douglas Cahl dcahl@geol.sc.edu
 %%
 %%%% for debuging
 %MSS_save=[];

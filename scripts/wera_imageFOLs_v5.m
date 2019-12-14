@@ -85,6 +85,8 @@ function [FOreg, FOregi, Alims, HEAD, DN_out]=imageFOLs_v2(data,iant,iFBragg,v_i
 %    WHOI-PO
 %    akirincich@whoi.edu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% for use with WERA .RAW and .SORT files
+% Douglas Cahl dcahl@geol.sc.edu
 %%
 
 %%%%%%%%%%%% User-set parameters for processing %%%%%%%%%%%%
