@@ -75,18 +75,18 @@ ARRAY.max_lat = 35;
 %%% set directory choices
 
 %%% What is the working directory where the HFR_DP files are located
-working_dir='D:\data\gittest2\lera_DPd';
+working_dir='/home/doug/Documents/MATLAB/git_dp/lera_DPd';
 
 %%% Where are the scripts, this is hard coded to be within the working directory
 scripts_dir=[working_dir '/scripts/'];
 
 %%% Where are the data  (see HFR_DP_SETUP_README.m for instructions
 %base_dir='/Users/anthony/Matlab/working/lera/lera_DP_testdata';
-base_dir='D:\data\gittest2\lera_DP_testdata_wera';
+base_dir='/home/doug/Documents/MATLAB/git_dp/lera_DP_testdata_wera';
 %base_dir='/Volumes/data/RadialSites';
 
 %%% Where do the DP logs go, if they are enabled...
-log_dir=['D:\data\gittest2\lera_DP_testdata_wera\LOGS'];
+log_dir=['/home/doug/Documents/MATLAB/git_dp/lera_DP_testdata_wera/LOGS'];
 %log_dir=['/Volumes/data/LOGS'];
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
