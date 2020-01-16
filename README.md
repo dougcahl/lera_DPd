@@ -2,6 +2,7 @@
 to install all required libraries  
 git clone https://github.com/g2e/m_map  
 git clone https://github.com/rowg/hfrprogs  
+git clone https://github.com/gvoulgaris0/matWERA  
 
 and the program  
 git clone https://github.com/dougcahl/lera_DPd  
@@ -11,9 +12,7 @@ Then edit HFR_DP_master_LERA_gtn.m to add the full paths before running.
 The example data in lera_DP_testdata_wera includes necessary scripts for antenna pattern calculations. 
 
 The processing scripts for raw WERA data (from .RAW and .SORT) are available in the WERA_to_DP repo that make a compatible .mat file for the forked lera_DPd repo here. This fork will automatically process either of these (from .RAW or .SORT) created by WERA_to_DP.   
-requires additional library matWERA  
-git clone https://github.com/gvoulgaris0/matWERA  
-and the program  
+requires matWERA  
 git clone https://github.com/dougcahl/WERA_to_DP  
 git clone https://github.com/dougcahl/wera_raw_data  
 
